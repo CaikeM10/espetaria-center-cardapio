@@ -47,8 +47,8 @@ export function SplashScreen() {
         </p>
 
         <Image
-          src="/LOOGORICARDO.png"
-          alt="Ricardo Espetaria"
+          src="/logoinicialcenter.png"
+          alt="Espetaria Center"
           width={360}
           height={220}
           priority
