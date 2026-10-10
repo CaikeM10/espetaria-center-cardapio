@@ -114,20 +114,19 @@ export function MenuScreen() {
 
         <div className="relative mx-auto max-w-3xl">
           <div className="flex items-center gap-3">
-            <div className="relative h-14 w-20 shrink-0">
+            <div className="relative h-[90px] w-[120px] shrink-0 sm:h-[110px] sm:w-[150px]">
               <Image
-                src="/LOOGORICARDO.png"
-                alt="Ricardo Espetaria"
+                src="/logoinicialcenter.png"
+                alt="Espetaria Center"
                 fill
                 priority
-                sizes="80px"
+                sizes="(min-width: 640px) 150px, 120px"
                 className="object-contain"
               />
             </div>
-
             <div>
               <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-white/50">
-                Ricardo Espetaria
+                Espetaria Center
               </p>
 
               <h1 className="mt-1 text-2xl font-bold sm:text-3xl">
@@ -209,7 +208,7 @@ export function MenuScreen() {
 
         <footer className="mt-12 border-t border-black/10 pt-6 text-center">
           <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-black/35">
-            Ricardo Espetaria
+            Espetaria Center
           </p>
 
           <p className="mt-2 text-xs text-black/45">
@@ -261,9 +260,9 @@ function ProductCard({ product }: { product: MenuProduct }) {
           ) : (
             <div className="flex h-full min-h-[120px] items-center justify-center px-3 text-center">
               <span className="text-[10px] font-medium text-black/30">
-                Ricardo
-                <br />
                 Espetaria
+                <br />
+                Center
               </span>
             </div>
           )}
